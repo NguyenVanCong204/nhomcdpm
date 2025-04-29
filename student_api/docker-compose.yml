@@ -11,7 +11,7 @@ services:
   mysql:
     image: mysql:8.0
     environment:
-      MYSQL_DATABASE: nhomcdpm
+      MYSQL_DATABASE: student_db
       MYSQL_ROOT_PASSWORD: ""
     ports:
       - "3306:3306"
